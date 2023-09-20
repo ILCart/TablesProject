@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's New and Improved Tables</title>
+    <style>
+        body {
+            font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+        table {
+            border: 2px black solid;
+        }
+        thead {
+            border: 2px black solid;
+            background-color: rgb(49, 2, 110);
+            color: white;
+        }
+        th {
+            padding: 6px;
+        }
+        td {
+            padding: 6px;
+            text-align: center;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(196, 196, 196);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="100%">Opinion on Months</th>
+            </tr>
+            <tr>
+                <th>
+                    Month Name
+                </th>
+                <th>
+                    Good
+                </th>
+                <th>
+                    Bad
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>July</td>
+                <td>Most of the time</td>
+                <td>It's too hot</td>
+            </tr>
+            <tr>
+                <td>October</td>
+                <td>Yes</td>
+                <td>Never</td>
+            </tr>
+            <tr>
+                <td>December</td>
+                <td><em>LAST CHRISTMAS</em></td>
+                <td><strong>I GAVE YOU MY HEART</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
